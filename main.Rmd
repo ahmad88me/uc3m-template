@@ -8,6 +8,7 @@ placeanddata: "Madrid, September 2025"
 output: 
   bookdown::pdf_document2:
     template: plantilla_tfm_ingles_2019.tex
+    citation_package: biblatex
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet elit nulla. Morbi interdum eu velit at feugiat. Aliquam aliquam feugiat purus ut luctus. Aliquam in orci ornare, semper nulla id, bibendum dolor. Sed viverra dui et libero condimentum pellentesque. Praesent ut gravida est. Quisque ut eros sodales, placerat eros sit amet, laoreet odio. In tincidunt turpis in rhoncus ultricies. Mauris dictum augue vitae nulla elementum tristique. Phasellus consequat dui ex, sed posuere turpis malesuada sit amet. Vestibulum sollicitudin orci at turpis consectetur aliquet. Ut pharetra, massa at sollicitudin hendrerit, erat justo maximus diam, sit amet gravida odio ipsum ac justo. Aenean malesuada egestas leo sit amet feugiat."
 keywords: "Lorem Ipsum,Aenean malesuada, egestas leo, sit amet feugiat"
 dedication: "Ut in ligula nec sem efficitur egestas. Maecenas eleifend in tortor sit amet fermentum. Morbi dapibus venenatis facilisis. Donec enim enim, accumsan a eleifend pellentesque, porttitor eu ipsum. Fusce ornare pretium tellus ut dapibus. Donec accumsan, sem rhoncus dignissim elementum, urna sapien egestas massa, nec malesuada lacus metus quis urna. Nullam neque felis, aliquam vitae sem eget, maximus aliquam enim. Mauris maximus aliquam leo, consectetur sagittis metus sollicitudin at. Vestibulum nec arcu leo. Etiam pharetra ipsum enim."
@@ -16,6 +17,10 @@ dedication: "Ut in ligula nec sem efficitur egestas. Maecenas eleifend in tortor
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+# Citation Examples
+
+We can cite papers with the name as @alobaid2024linear or just as number like [@alobaid2024linear]
 
 # y intro
 
