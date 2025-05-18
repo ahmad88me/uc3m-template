@@ -24,6 +24,14 @@ We can cite papers with the name as @alobaid2024linear or just as number like [@
 
 # y intro
 
+
+\begin{lstlisting}[caption=This is a hello world code, label=lst:hello]
+print("Hello World!")
+\end{lstlisting}
+
+Hello World code \@ref(lst:hello)
+
+
 ## R Markdown
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
